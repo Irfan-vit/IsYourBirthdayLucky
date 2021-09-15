@@ -97,6 +97,7 @@ export default function App() {
                 luckyNo = e.target.value;
               }}
               type="number"
+              min="1"
             />
             <button type="submit">check</button>
             <button
